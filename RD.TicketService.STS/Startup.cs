@@ -35,7 +35,11 @@ namespace RD.TicketService.STS
                 {
                     SiteName = "RealDolmen TicketService STS",
                     SigningCertificate = LoadCertificate(),
-                    Factory = factory
+                    Factory = factory,
+                    AuthenticationOptions = new AuthenticationOptions 
+                    {
+                        EnablePostSignOutAutoRedirect = true
+                    }
                 };
 
                 idsrvApp.UseIdentityServer(options);

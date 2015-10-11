@@ -1,0 +1,16 @@
+<p>Click the button below to contact the secured Web API at <a href="https://localhost:44310/claims">https://localhost:44310/claims</a></p>
+<button class="btn btn-primary" ng-click="httpCall()">Make Web API call</button>
+<table class="table" ng-show="customers !== null">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="customer in customers">
+			<td>{{customer.name}}</td>
+			<td>{{customer.email}}</td>
+		</tr>
+	</tbody>
+</table>

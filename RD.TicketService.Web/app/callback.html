@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <script src="bower_components/oidc-token-manager/dist/oidc-token-manager.js"></script>
+    <script>
+
+        var config = {
+            client_id: "RD.TicketService.Web",
+            redirect_uri:  window.location.protocol + "//" + window.location.host + "/callback.html",
+            load_user_profile: true,
+            authority: "https://localhost:44301/identity"
+        };
+
+        var mgr = new OidcTokenManager(config);
+
+        // process the token
+        mgr.processTokenCallbackAsync().then(function ()
+        {
+            window.location = window.location.protocol + "//" + window.location.host + "/";
+        },
+        function (error)
+        {
+           alert("Problem Getting Token : " + (error.message || error));
+        });
+
+    </script>
+
+</body>
+</html>

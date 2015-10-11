@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90. Client", "90. Client", "{E0781E49-BCBB-4768-9267-22CF6D01EF61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "80. API", "80. API", "{AE0CAB3D-E3DC-45FF-A5A8-CDE0F422516A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "70. STS", "70. STS", "{B596B8BC-379E-48FC-8B89-F16144AE9000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Core", "10. Core", "{9E18CBBE-2F41-479E-B30F-E0153C420AB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Domain", "20. Domain", "{EBB5E8A4-0DE0-449E-8758-EEC24A2ED683}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30. Data", "30. Data", "{60D65B5D-47D5-41FA-8390-1D2E6D6B26B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40. Services", "40. Services", "{C3C39328-9EE0-4419-AD97-50BB94ED182A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RD.TicketService.Domain", "RD.TicketService.Domain\RD.TicketService.Domain.csproj", "{BC9FE5EA-E4E0-4FFC-AE6F-EB4F481B5433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RD.TicketService.Security", "RD.TicketService.Security\RD.TicketService.Security.csproj", "{30838CAF-1324-46F3-AE74-528F45F3B2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RD.TicketService.Api", "RD.TicketService.Api\RD.TicketService.Api.csproj", "{A7AC86E6-A5BE-4B89-896A-7ABAB11FE083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RD.TicketService.STS", "RD.TicketService.STS\RD.TicketService.STS.csproj", "{B41C421D-F310-4D97-A8EB-B2E9751FBFFB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RD.TicketService.Web", "RD.TicketService.Web\RD.TicketService.Web.xproj", "{273A85E1-674A-4E13-8C61-A3D6756BA7E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC9FE5EA-E4E0-4FFC-AE6F-EB4F481B5433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9FE5EA-E4E0-4FFC-AE6F-EB4F481B5433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9FE5EA-E4E0-4FFC-AE6F-EB4F481B5433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9FE5EA-E4E0-4FFC-AE6F-EB4F481B5433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30838CAF-1324-46F3-AE74-528F45F3B2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30838CAF-1324-46F3-AE74-528F45F3B2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30838CAF-1324-46F3-AE74-528F45F3B2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30838CAF-1324-46F3-AE74-528F45F3B2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7AC86E6-A5BE-4B89-896A-7ABAB11FE083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AC86E6-A5BE-4B89-896A-7ABAB11FE083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AC86E6-A5BE-4B89-896A-7ABAB11FE083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AC86E6-A5BE-4B89-896A-7ABAB11FE083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41C421D-F310-4D97-A8EB-B2E9751FBFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41C421D-F310-4D97-A8EB-B2E9751FBFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41C421D-F310-4D97-A8EB-B2E9751FBFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41C421D-F310-4D97-A8EB-B2E9751FBFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273A85E1-674A-4E13-8C61-A3D6756BA7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273A85E1-674A-4E13-8C61-A3D6756BA7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273A85E1-674A-4E13-8C61-A3D6756BA7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273A85E1-674A-4E13-8C61-A3D6756BA7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC9FE5EA-E4E0-4FFC-AE6F-EB4F481B5433} = {EBB5E8A4-0DE0-449E-8758-EEC24A2ED683}
+		{30838CAF-1324-46F3-AE74-528F45F3B2CF} = {9E18CBBE-2F41-479E-B30F-E0153C420AB4}
+		{A7AC86E6-A5BE-4B89-896A-7ABAB11FE083} = {AE0CAB3D-E3DC-45FF-A5A8-CDE0F422516A}
+		{B41C421D-F310-4D97-A8EB-B2E9751FBFFB} = {B596B8BC-379E-48FC-8B89-F16144AE9000}
+		{273A85E1-674A-4E13-8C61-A3D6756BA7E8} = {E0781E49-BCBB-4768-9267-22CF6D01EF61}
+	EndGlobalSection
+EndGlobal

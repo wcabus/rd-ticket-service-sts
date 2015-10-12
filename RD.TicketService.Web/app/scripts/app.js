@@ -56,6 +56,7 @@ angular
         var config = {
             client_id: 'RD.TicketService.Web',
             redirect_uri: window.location.protocol + '//' + window.location.host + '/callback.html',
+            post_logout_redirect_uri: window.location.protocol + '//' + window.location.host + '/',
             response_type: 'id_token token',
             scope: 'openid profile RD.TicketService.API',
             authority: 'https://localhost:44301/identity'

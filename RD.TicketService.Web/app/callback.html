@@ -10,7 +10,8 @@
 
         var config = {
             client_id: "RD.TicketService.Web",
-            redirect_uri:  window.location.protocol + "//" + window.location.host + "/callback.html",
+            redirect_uri: window.location.protocol + "//" + window.location.host + "/callback.html",
+            post_logout_redirect_uri: window.location.protocol + '//' + window.location.host + '/',
             load_user_profile: true,
             authority: "https://localhost:44301/identity"
         };
